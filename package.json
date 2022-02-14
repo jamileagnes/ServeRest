@@ -1,0 +1,21 @@
+{
+  "name": "serverest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serverest",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "joi": "^17.6.0"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Logitech MX Vertical x",
+        "preco": 470,
+        "descricao": "Mouse",
+        "quantidade": 381
+    },
+    {
+        "nome": "Samsung 60 polegadas",
+        "preco": 5240,
+        "descricao": "TV",
+        "quantidade": 2000
+    },
+    {
+        "nome": "Monitor Dell",
+        "preco": 2240,
+        "descricao": "Monitor de vídeo",
+        "quantidade": 1000
+    }
+]
