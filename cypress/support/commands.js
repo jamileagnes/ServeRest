@@ -1,5 +1,4 @@
 import login from '../fixtures/login.json'
-var faker = require('faker');
 
 Cypress.Commands.add('login', (usuario, senha) => {
     cy.request({
@@ -35,10 +34,6 @@ Cypress.Commands.add('getUsuario', () => {
         return response.body.usuarios
     })
 })
-
-var nomeFake = faker.name.findName()
-var emailFake = faker.internet.email(nomeFake)
-var senhaFake = faker.internet.password()
 
 Cypress.Commands.add('cadastroUsuarioMaster', () => {
     cy.request({

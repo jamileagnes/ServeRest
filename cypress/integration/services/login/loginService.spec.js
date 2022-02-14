@@ -3,7 +3,7 @@ describe('LOGIN - Testes da API ServeRest', () => {
     it('Deve realizar o login com sucesso', () => {
         cy.request({
             method: 'POST',
-            url: '/login',
+            url: 'login',
             body: {
                 "email": "fulano@qa.com",
                 "password": "teste"
